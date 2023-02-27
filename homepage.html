@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+<title> Home | Juventus Central </title>
+    
+
+<body>
+
+<div class="top">
+<div class="header">
+<center>
+    <a href="index.html"><img id="top" title="Juventus Banner" src="images/juventusbanner.png" alt="Juventus Banner" /></a>
+    </center>
+</div>
+    
+<div id="topbar">
+    <a class="active" href="homepage.html"><b>Home</b></a>
+    <a href="schedule.html"><b>Schedule</b></a>
+    <a href="roster.html"><b>Roster</b></a>
+    <a href="highlights.html"><b>Highlights</b></a>
+  <a href="references.html"><b>References</b></a>
+</div>
+    </div>
+    
+    <div>
+        <a href="#top" class="button"><b>Top</b></a>
+    </div>
+
+<div class="content">
+
+<table style="width: 1000px; background: rgba(0, 0, 0, 0.6); margin-left: auto; margin-right: auto;" cellpadding="20px">
+<tbody>
+<tr>
+<td colspan="2">
+    <h1><b>Welcome to Juventus Central</b></h1>
+</td>
+</tr>
+<tr>
+<td valign="top" style="font-size: 22px;">
+<p>Welcome to Juventus Central! On this website you will find everything regarding Juventus FC, one of the top soccer teams in all of Italy. At Juventus Central we cover everything from the team's schedule to some of the team's greatest highlights. Before navigating through the website, feel free to check out some of the background information below!</p>
+    <img src="images/divider.png" alt="Divider" width="500" height="52" /> Juventus FC is a soccer (football) club founded in 1897 and based in Turin, Italy. They compete in the top Italian league called the <a class="link" href="https://www.legaseriea.it/en" target="_blank" rel="noopener">Seria A</a>, and host all their home games at Allianz Stadium. While on the field, the team players have been wearing black and white jerseys since the year 1903. Juventus has an outstanding record of 36 league titles, 14 Coppa Italia titles, and 9 Supercoppa Italiana titles. The club is also known for having one of the world's largest fan followings in the soccer community racking up a total of 106 million followers across all media platforms. Throughout the years, Juventus has been home to some of the world's greatest players, most recently one being the Portugal Striker, Cristiano Ronaldo.</td>
+<td>&nbsp;&nbsp;<a href="schedule.html"><img title="Juventus Calendar" src="images/juventuswallpaper.png" alt="Juventus Wallpaper" width="400" height="586" /></a></td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<p>For more background information check out <a class="link" href="https://www.juventus.com/en/" target="_blank" rel="noopener">www.juventus.com</a></p>
+<p>If you have any questions, you can reach out to the club via <a class="link" href="mailto: support@juventus.com">support@juventus.com</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<p class="foot">Juventus Central Est. 2021</p>
+</td>
+</tr>
+</tbody>
+</table>
+    
+    </div>
+    
+    
+
+<script>
+window.onscroll = function() {scrollOperator()};
+
+var topbar = document.getElementById("topbar");
+var fixed = topbar.offsetTop;
+
+function scrollOperator() {
+  if (window.pageYOffset >= fixed) {
+    topbar.classList.add("fixed")
+  } else {
+    topbar.classList.remove("fixed");
+  }
+}
+</script>
+    
+    
+</body>
+    
+
+</html>

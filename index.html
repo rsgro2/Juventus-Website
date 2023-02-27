@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title> Welcome | Juventus Central </title>
+
+<style>
+    
+@font-face {
+    font-family: JuventusFont;
+    src: url(fonts/juventusfans-bold.ttf);
+}
+    
+body {margin:0; background-color: black;}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.centered {
+margin: auto;
+width: 60%;
+padding: 100px;
+position: relative;
+z-index:1;
+}
+    
+.videoclip {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+</style>
+
+<body>
+
+<div class="container">
+  <video class="videoclip" src="videoanim/goalcompilation.mp4" autoplay loop playsinline muted></video>
+  <div class="top-left"><a href="homepage.html"><img src="images/juventuslogowhite.png" wdith="85" height="85"/></a><p style="font-family: JuventusFont; text-align: center; font-size: 25px; line-height: 0px;">CLICK ABOVE</p></div>
+  <div class="centered" style="font-family: JuventusFont;">
+    <img title="Classic Juventus Logo" alt="Classic Juventus Logo" src="images/oldjuventuslogo.png" height="324" width="200"/>
+    <p style="font-size:80px; line-height:0;">JUVENTUS CENTRAL</p>
+      <p style="font-size:50px; line-height:0;">Your source for everything Juventus.</p>
+    </div>
+</div>
+
+    <audio autoplay id="indexsong">
+    <source src="songs/indexsong.mp3" type="audio/mpeg">
+    </audio>
+    
+<script>
+  var song = document.getElementById("indexsong");
+  song.volume = 0.7;
+</script>
+
+    
+</body>
+
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+<title> Highlights | Juventus Central </title>
+    
+
+<body>
+
+<div class="top">
+<div class="header">
+<center>
+    <a href="index.html"><img id="top" title="Juventus Banner" src="images/juventusbanner.png" alt="Juventus Banner" /></a>
+    </center>
+</div>
+    
+<div id="topbar">
+    <a href="homepage.html"><b>Home</b></a>
+    <a href="schedule.html"><b>Schedule</b></a>
+    <a href="roster.html"><b>Roster</b></a>
+    <a class="active" href="highlights.html"><b>Highlights</b></a>
+    <a href="references.html"><b>References</b></a>
+</div>
+    </div>
+    
+    <div>
+        <a href="#top" class="button"><b>Top</b></a>
+    </div>
+
+<div class="content">
+
+<table style="width: 1000px; background: rgba(0, 0, 0, 0.6); margin-left: auto; margin-right: auto;" cellpadding="20px">
+<tbody>
+<tr>
+<td colspan="2">
+<h1>Highlights</h1>
+</td>
+</tr>
+<tr>
+<td style="font-size: 22px;" valign="top">
+<p>Being one of the top teams in Italy, Juventus tends to put on a show every game they play. In the past couple of years, the club has been able to score some outstanding world class goals. These goals have been scored in all sorts of high intensity matches: from Serie A championships to the Champion's League finals!</p>
+<p>One Juventus goal in particular is Cristiano Ronaldo's famous high jump header. In a Serie A match against U.C. Sampdoria, Ronaldo scored a header to put Juventus at a winning position; 2 goals to 1. Ronaldo's goal made headlines as he jumped what is said to be almost 9 feet in the air. This will go down as one of Juventus FC's most iconic goals in recent history.</p>
+<p>Below you will find a video recapping the goal.</p>
+</td>
+<td>&nbsp;&nbsp;<img title="Juventus Celebrating" src="images/juventuscelebrating.jpeg" alt="Juventus Celebrating" width="450" height="450" /></td>
+</tr>
+<tr>
+<td style="font-size: 22px;" colspan="2" valign="top">
+<h2>Ronaldo's Goal vs Sampdoria</h2>
+<p><video style="display: block; margin-left: auto; margin-right: auto;" controls="controls" width="900" height="506.2">
+<source src="videoanim/juventusvideo.mp4" type="video/mp4" /><track label="English" kind="subtitles" srclang="en" src="captionsen.vtt"></video></p>
+<p style="text-align: center;">For more Juventus highlights and gameplay videos, check out <a class="link" href="https://www.juventus.com/en/juventus-tv/" target="_blank" rel="noopener">www.juventus.com/highlights</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<p class="foot">Juventus Central Est. 2021</p>
+</td>
+</tr>
+</tbody>
+</table>
+    
+    </div>
+    
+    
+
+<script>
+window.onscroll = function() {scrollOperator()};
+
+var topbar = document.getElementById("topbar");
+var fixed = topbar.offsetTop;
+
+function scrollOperator() {
+  if (window.pageYOffset >= fixed) {
+    topbar.classList.add("fixed")
+  } else {
+    topbar.classList.remove("fixed");
+  }
+}
+</script>
+    
+    
+</body>
+    
+
+</html>

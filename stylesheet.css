@@ -1,0 +1,135 @@
+@font-face {
+    font-family: JuventusFont;
+    src: url(fonts/juventusfans-bold.ttf);
+}
+
+body {margin: 0;
+font-family: JuventusFont;
+color: white;
+}
+
+.top {
+  font-size:20px;
+  margin:0;
+}
+
+.header {background-color:black;}
+
+
+* {box-sizing: border-box}
+
+#topbar {
+  background-color: #66615e;
+  width: 100%;
+  overflow: hidden;
+}
+
+#topbar a {
+  float: left;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 12px;
+  width: 20%;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.foot {
+    text-align: center; 
+    font-size: 18px;
+}
+
+#topbar a:hover {
+  background-color: black;
+  color: #fec72e;
+}
+
+#topbar a.active {
+  background-color: black;
+  color: #fec72e;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.fixed + .element {
+  padding-top: 60px;
+}
+
+.content {
+    background-image: url("images/soccergrass.jpeg");
+    background-attachment: fixed;
+    font-size: 20px;
+}
+
+.link{
+    color: #fec72e;
+}
+
+.link:hover {
+ color: orangered;
+ text-decoration: none;
+}
+
+.titlelink {
+    color: black;
+    text-decoration: none;
+}
+
+.titlelink:hover {
+    color: #FF007F;
+    text-decoration: none;
+}
+
+table.no-spacing {
+    border-collapse: collapse;
+}
+
+.button {
+  background-color : black;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px;
+  right: 30px;
+  bottom: 20px;
+  position: fixed;
+  border-radius: 8px; 
+  font-family: 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.button:hover{
+    background-color: dimgrey;
+    color: white;
+    text-decoration: none;
+}
+
+.profile {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+  width: 250px;
+}
+
+.profile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.box {
+  padding: 2px 16px;
+}
